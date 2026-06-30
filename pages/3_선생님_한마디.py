@@ -9,13 +9,13 @@ st.markdown("""
 html, body, [class*="css"] { font-family: 'Noto Sans KR', sans-serif; }
 .msg-box {
     background: rgba(168,85,247,0.1);
-    border: 1px solid rgba(168,85,247,0.3);
+    border: 1px solid rgba(168,85,247,0.4);
     border-radius: 20px;
     padding: 36px 28px;
     text-align: center;
     font-size: 1.15rem;
     line-height: 1.85;
-    color: #e2e8f0;
+    color: #1e1b4b;
     margin: 1.5rem 0;
     min-height: 130px;
 }
