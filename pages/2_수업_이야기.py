@@ -10,8 +10,8 @@ html, body, [class*="css"] { font-family: 'Noto Sans KR', sans-serif; }
     display: flex;
     align-items: flex-start;
     gap: 16px;
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(255,255,255,0.09);
+    background: #f8f4ff;
+    border: 1px solid #d8b4fe;
     border-radius: 14px;
     padding: 18px 20px;
     margin: 10px 0;
@@ -25,8 +25,8 @@ html, body, [class*="css"] { font-family: 'Noto Sans KR', sans-serif; }
     flex-shrink: 0;
 }
 .class-card {
-    background: rgba(0,229,255,0.06);
-    border-left: 4px solid #00e5ff;
+    background: #f0faff;
+    border-left: 4px solid #0ea5e9;
     border-radius: 0 12px 12px 0;
     padding: 16px 20px;
     margin: 8px 0;
@@ -53,8 +53,8 @@ for i, (title, desc) in enumerate(rules, 1):
     <div class="rule-card">
       <div class="rule-num">{i}</div>
       <div>
-        <strong style="color:#e2e8f0;">{title}</strong><br>
-        <span style="color:#94a3b8; font-size:0.9rem;">{desc}</span>
+        <strong style="color:#1e1b4b;">{title}</strong><br>
+        <span style="color:#4b5563; font-size:0.9rem;">{desc}</span>
       </div>
     </div>
     """, unsafe_allow_html=True)
@@ -65,8 +65,8 @@ st.markdown("---")
 st.markdown("### 🌱 이번 수업: 디지털 새싹 바이브코딩")
 st.markdown("""
 <div class="class-card">
-  <strong style="color:#00e5ff;">바이브코딩</strong>이란?<br>
-  <span style="color:#aaa;">AI와 함께 내가 원하는 것을 직접 만들어보는 코딩 방식이에요.<br>
+  <strong style="color:#0369a1;">바이브코딩</strong>이란?<br>
+  <span style="color:#374151;">AI와 함께 내가 원하는 것을 직접 만들어보는 코딩 방식이에요.<br>
   코드를 외우지 않아도 돼요. 아이디어만 있으면 됩니다!</span>
 </div>
 """, unsafe_allow_html=True)
